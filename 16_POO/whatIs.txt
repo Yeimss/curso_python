@@ -1,0 +1,35 @@
+            qué es la programación orientada a objetos?
+
+es un paradigma de programación, un paradigma como tal es una forma de ver el mundo.
+
+cómo tal es una forma de programar en la cual todo lo vamos a ver cómo objetos
+y va a favorecer mucho en la usabilidad, mantenibilidad, escalabilidad del código de los
+proyectos de software que hagamos.
+
+Conceptos:
+    -Clases:
+        es el moldque no nos va a permitir crear nuestros objetos
+
+    -propiedades/atributos:
+        piesas o caracteristicas que van a definir a la clase
+
+    -funciones/metodos:
+        acciones que puede hacer la clase
+
+    -Abstracción:
+        posibilidad de usar un objeto en muchos casos diferentes y no en un caso en concreto
+
+    -Herencia:
+        Las clases pueden heredar las propiedades y metodos de otras clases
+
+    -Modularidad:
+        Dividir la clase en partes más pequeñas que se dediquen a algo especifico dentro de la app
+        como por ejemplo los controladores de usuario
+
+    -Encapsulación/Ocultación:
+        Cada obj tiene sus datos en concreto y estos datos solo deben modificarse dentro de la clase cómo tal
+        esto sería tener los datos privados
+    
+
+    
+
