@@ -4,7 +4,8 @@ import mysql.connector
 database=mysql.connector.connect(
     host='localhost',
     user='root',
-    passwd="master_py",
+    passwd="",
+    database='master_py'
 )   
 ##print(database)
 cursor=database.cursor()
