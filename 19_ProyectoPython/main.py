@@ -14,14 +14,27 @@ print(
 Acciones disponibles
     -Registro
     -Login
+    -salir
 """
 )
-accion=input("Qué quieres hacer?: ")
-doIt=acciones.Acciones()
+i=True
+while i:
+    accion=input("Qué quieres hacer?: ")
+    doIt=acciones.Acciones()
 
-if(accion.upper()=="REGISTRO"):
-    doIt.registro()
+    if(accion.upper()=="REGISTRO"):
+        doIt.registro()
+        i=False
 
-elif accion.upper()=="LOGIN":
-    doIt.login()
+    elif accion.upper()=="LOGIN":
+        doIt.login()
+        i=False
+
+    elif accion.upper()=="SALIR":
+        exit()
+    
+    else:
+        print("ingrese una opcion valida\n\n")
+
+
 
